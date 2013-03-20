@@ -1,5 +1,5 @@
 //
-//  CLMParser.h
+//  CLMFeedlingManager.h
 //  CLMFeedling
 //
 //  Created by Andrew Hulsizer on 3/18/13.
@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CLMParser : NSObject
+@interface CLMFeedlingManager : NSObject
 
-- (NSDictionary*)fetchFeeds:(NSDictionary*)feeds;
-- (NSDictionary*)refreshFeeds;
+- (CLMFeedlingManager*)sharedFeedling;
 @end

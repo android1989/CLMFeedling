@@ -42,6 +42,10 @@
 		AFD1754516F7F82300CF5B41 /* CLMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752A16F7F82300CF5B41 /* CLMParser.m */; };
 		AFD1754616F7F82300CF5B41 /* CLMServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752D16F7F82300CF5B41 /* CLMServiceLocator.m */; };
 		AFD1754716F7F82300CF5B41 /* CLMServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752D16F7F82300CF5B41 /* CLMServiceLocator.m */; };
+		AFD1755016F7FE3900CF5B41 /* CLMFeedlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1754F16F7FE3900CF5B41 /* CLMFeedlingManager.m */; };
+		AFD1755116F7FE3900CF5B41 /* CLMFeedlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1754F16F7FE3900CF5B41 /* CLMFeedlingManager.m */; };
+		AFD175B716F9600800CF5B41 /* CLMXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD175B616F9600800CF5B41 /* CLMXMLParser.m */; };
+		AFD175BA16F9601400CF5B41 /* CLMAtomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD175B916F9601400CF5B41 /* CLMAtomParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,12 @@
 		AFD1752A16F7F82300CF5B41 /* CLMParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMParser.m; sourceTree = "<group>"; };
 		AFD1752C16F7F82300CF5B41 /* CLMServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMServiceLocator.h; sourceTree = "<group>"; };
 		AFD1752D16F7F82300CF5B41 /* CLMServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMServiceLocator.m; sourceTree = "<group>"; };
+		AFD1754E16F7FE3900CF5B41 /* CLMFeedlingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMFeedlingManager.h; sourceTree = "<group>"; };
+		AFD1754F16F7FE3900CF5B41 /* CLMFeedlingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMFeedlingManager.m; sourceTree = "<group>"; };
+		AFD175B516F9600800CF5B41 /* CLMXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMXMLParser.h; sourceTree = "<group>"; };
+		AFD175B616F9600800CF5B41 /* CLMXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMXMLParser.m; sourceTree = "<group>"; };
+		AFD175B816F9601400CF5B41 /* CLMAtomParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMAtomParser.h; sourceTree = "<group>"; };
+		AFD175B916F9601400CF5B41 /* CLMAtomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMAtomParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +174,7 @@
 		AFD174B016F7E81F00CF5B41 /* CLMFeedling */ = {
 			isa = PBXGroup;
 			children = (
+				AFD1754D16F7FE2C00CF5B41 /* CLMFeedlingManager */,
 				AFD1750F16F7F82300CF5B41 /* AFNetworking */,
 				AFD1752316F7F82300CF5B41 /* CLMObjects */,
 				AFD1752816F7F82300CF5B41 /* CLMParser */,
@@ -244,6 +255,10 @@
 			children = (
 				AFD1752916F7F82300CF5B41 /* CLMParser.h */,
 				AFD1752A16F7F82300CF5B41 /* CLMParser.m */,
+				AFD175B516F9600800CF5B41 /* CLMXMLParser.h */,
+				AFD175B616F9600800CF5B41 /* CLMXMLParser.m */,
+				AFD175B816F9601400CF5B41 /* CLMAtomParser.h */,
+				AFD175B916F9601400CF5B41 /* CLMAtomParser.m */,
 			);
 			path = CLMParser;
 			sourceTree = "<group>";
@@ -255,6 +270,15 @@
 				AFD1752D16F7F82300CF5B41 /* CLMServiceLocator.m */,
 			);
 			path = CLMServiceLocator;
+			sourceTree = "<group>";
+		};
+		AFD1754D16F7FE2C00CF5B41 /* CLMFeedlingManager */ = {
+			isa = PBXGroup;
+			children = (
+				AFD1754E16F7FE3900CF5B41 /* CLMFeedlingManager.h */,
+				AFD1754F16F7FE3900CF5B41 /* CLMFeedlingManager.m */,
+			);
+			path = CLMFeedlingManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +393,9 @@
 				AFD1754216F7F82300CF5B41 /* CLMFeedItem.m in Sources */,
 				AFD1754416F7F82300CF5B41 /* CLMParser.m in Sources */,
 				AFD1754616F7F82300CF5B41 /* CLMServiceLocator.m in Sources */,
+				AFD1755016F7FE3900CF5B41 /* CLMFeedlingManager.m in Sources */,
+				AFD175B716F9600800CF5B41 /* CLMXMLParser.m in Sources */,
+				AFD175BA16F9601400CF5B41 /* CLMAtomParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +417,7 @@
 				AFD1754316F7F82300CF5B41 /* CLMFeedItem.m in Sources */,
 				AFD1754516F7F82300CF5B41 /* CLMParser.m in Sources */,
 				AFD1754716F7F82300CF5B41 /* CLMServiceLocator.m in Sources */,
+				AFD1755116F7FE3900CF5B41 /* CLMFeedlingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +469,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -463,6 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -474,6 +504,7 @@
 				DSTROOT = /tmp/CLMFeedling.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CLMFeedling/CLMFeedling-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -486,6 +517,7 @@
 				DSTROOT = /tmp/CLMFeedling.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CLMFeedling/CLMFeedling-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
