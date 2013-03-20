@@ -25,20 +25,8 @@ static NSString * const kATOMFeed = @"feed";
 
 @implementation CLMParser
 
-- (NSDictionary*)fetchFeeds:(NSDictionary*)feeds
+- (void)fetchFeed:(NSString*)feedURL
 {
-    return nil;
-}
-
-- (NSDictionary*)refreshFeeds
-{
-    [self refreshFeed:@"http://feeds.gawker.com/kotaku/full"];
-    return nil;
-}
-
-- (void)refreshFeed:(NSString*)feedURL
-{
-    
     AFHTTPClient *client = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:feedURL]];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:feedURL]];
     AFHTTPRequestOperation *operation = [client HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -52,6 +40,7 @@ static NSString * const kATOMFeed = @"feed";
     }];
     
     [operation start];
+
 }
 
 #pragma mark - XML Parsing

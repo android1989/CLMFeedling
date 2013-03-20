@@ -10,5 +10,10 @@
 
 @interface CLMFeedlingManager : NSObject
 
-- (CLMFeedlingManager*)sharedFeedling;
++ (CLMFeedlingManager*)sharedFeedling;
+
+- (void)refreshFeeds;
+- (void)refreshFeedsInCategory:(NSString*)category;
+- (void)addFeed:(NSString*)feedURL;
+- (void)addFeed:(NSString*)feedURL toCategory:(NSString*)category;
 @end

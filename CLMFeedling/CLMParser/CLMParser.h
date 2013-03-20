@@ -10,6 +10,6 @@
 
 @interface CLMParser : NSObject
 
-- (NSDictionary*)fetchFeeds:(NSDictionary*)feeds;
-- (NSDictionary*)refreshFeeds;
+- (void)fetchFeed:(NSString*)feedURL;
+
 @end
