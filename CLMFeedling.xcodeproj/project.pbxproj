@@ -7,34 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF916064174C709100CCAF64 /* CLMFeedlingManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFD1754E16F7FE3900CF5B41 /* CLMFeedlingManager.h */; };
+		AF916065174C70A300CCAF64 /* CLMFeed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFD1752416F7F82300CF5B41 /* CLMFeed.h */; };
+		AF916066174C70A300CCAF64 /* CLMFeedItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFD1752616F7F82300CF5B41 /* CLMFeedItem.h */; };
+		AF916067174C70A300CCAF64 /* CLMParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFD1752916F7F82300CF5B41 /* CLMParser.h */; };
+		AF916068174C70A300CCAF64 /* CLMXMLParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFD175B516F9600800CF5B41 /* CLMXMLParser.h */; };
+		AF916069174C70A300CCAF64 /* CLMAtomParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFD175B816F9601400CF5B41 /* CLMAtomParser.h */; };
+		AF916073174C71D700CCAF64 /* CLMFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752516F7F82300CF5B41 /* CLMFeed.m */; };
 		AFD174AF16F7E81F00CF5B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD174AE16F7E81F00CF5B41 /* Foundation.framework */; };
 		AFD174B416F7E81F00CF5B41 /* CLMFeedling.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFD174B316F7E81F00CF5B41 /* CLMFeedling.h */; };
-		AFD174B616F7E81F00CF5B41 /* CLMFeedling.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD174B516F7E81F00CF5B41 /* CLMFeedling.m */; };
 		AFD174BE16F7E81F00CF5B41 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD174BD16F7E81F00CF5B41 /* SenTestingKit.framework */; };
 		AFD174C016F7E81F00CF5B41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD174BF16F7E81F00CF5B41 /* UIKit.framework */; };
 		AFD174C116F7E81F00CF5B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD174AE16F7E81F00CF5B41 /* Foundation.framework */; };
 		AFD174C416F7E81F00CF5B41 /* libCLMFeedling.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD174AB16F7E81F00CF5B41 /* libCLMFeedling.a */; };
 		AFD174CA16F7E81F00CF5B41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFD174C816F7E81F00CF5B41 /* InfoPlist.strings */; };
 		AFD174CD16F7E81F00CF5B41 /* CLMFeedlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD174CC16F7E81F00CF5B41 /* CLMFeedlingTests.m */; };
-		AFD1752E16F7F82300CF5B41 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751116F7F82300CF5B41 /* AFHTTPClient.m */; };
-		AFD1752F16F7F82300CF5B41 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751116F7F82300CF5B41 /* AFHTTPClient.m */; };
-		AFD1753016F7F82300CF5B41 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751316F7F82300CF5B41 /* AFHTTPRequestOperation.m */; };
-		AFD1753116F7F82300CF5B41 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751316F7F82300CF5B41 /* AFHTTPRequestOperation.m */; };
-		AFD1753216F7F82300CF5B41 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751516F7F82300CF5B41 /* AFImageRequestOperation.m */; };
-		AFD1753316F7F82300CF5B41 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751516F7F82300CF5B41 /* AFImageRequestOperation.m */; };
-		AFD1753416F7F82300CF5B41 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751716F7F82300CF5B41 /* AFJSONRequestOperation.m */; };
-		AFD1753516F7F82300CF5B41 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751716F7F82300CF5B41 /* AFJSONRequestOperation.m */; };
-		AFD1753616F7F82300CF5B41 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751916F7F82300CF5B41 /* AFNetworkActivityIndicatorManager.m */; };
-		AFD1753716F7F82300CF5B41 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751916F7F82300CF5B41 /* AFNetworkActivityIndicatorManager.m */; };
-		AFD1753816F7F82300CF5B41 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751C16F7F82300CF5B41 /* AFPropertyListRequestOperation.m */; };
-		AFD1753916F7F82300CF5B41 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751C16F7F82300CF5B41 /* AFPropertyListRequestOperation.m */; };
-		AFD1753A16F7F82300CF5B41 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751E16F7F82300CF5B41 /* AFURLConnectionOperation.m */; };
-		AFD1753B16F7F82300CF5B41 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1751E16F7F82300CF5B41 /* AFURLConnectionOperation.m */; };
-		AFD1753C16F7F82300CF5B41 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752016F7F82300CF5B41 /* AFXMLRequestOperation.m */; };
-		AFD1753D16F7F82300CF5B41 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752016F7F82300CF5B41 /* AFXMLRequestOperation.m */; };
-		AFD1753E16F7F82300CF5B41 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752216F7F82300CF5B41 /* UIImageView+AFNetworking.m */; };
-		AFD1753F16F7F82300CF5B41 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752216F7F82300CF5B41 /* UIImageView+AFNetworking.m */; };
-		AFD1754016F7F82300CF5B41 /* CLMFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752516F7F82300CF5B41 /* CLMFeed.m */; };
 		AFD1754116F7F82300CF5B41 /* CLMFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752516F7F82300CF5B41 /* CLMFeed.m */; };
 		AFD1754216F7F82300CF5B41 /* CLMFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752716F7F82300CF5B41 /* CLMFeedItem.m */; };
 		AFD1754316F7F82300CF5B41 /* CLMFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD1752716F7F82300CF5B41 /* CLMFeedItem.m */; };
@@ -65,6 +52,12 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				AF916065174C70A300CCAF64 /* CLMFeed.h in CopyFiles */,
+				AF916066174C70A300CCAF64 /* CLMFeedItem.h in CopyFiles */,
+				AF916067174C70A300CCAF64 /* CLMParser.h in CopyFiles */,
+				AF916068174C70A300CCAF64 /* CLMXMLParser.h in CopyFiles */,
+				AF916069174C70A300CCAF64 /* CLMAtomParser.h in CopyFiles */,
+				AF916064174C709100CCAF64 /* CLMFeedlingManager.h in CopyFiles */,
 				AFD174B416F7E81F00CF5B41 /* CLMFeedling.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +69,6 @@
 		AFD174AE16F7E81F00CF5B41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AFD174B216F7E81F00CF5B41 /* CLMFeedling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLMFeedling-Prefix.pch"; sourceTree = "<group>"; };
 		AFD174B316F7E81F00CF5B41 /* CLMFeedling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLMFeedling.h; sourceTree = "<group>"; };
-		AFD174B516F7E81F00CF5B41 /* CLMFeedling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLMFeedling.m; sourceTree = "<group>"; };
 		AFD174BC16F7E81F00CF5B41 /* CLMFeedlingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLMFeedlingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD174BD16F7E81F00CF5B41 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AFD174BF16F7E81F00CF5B41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -180,7 +172,6 @@
 				AFD1752816F7F82300CF5B41 /* CLMParser */,
 				AFD1752B16F7F82300CF5B41 /* CLMServiceLocator */,
 				AFD174B316F7E81F00CF5B41 /* CLMFeedling.h */,
-				AFD174B516F7E81F00CF5B41 /* CLMFeedling.m */,
 				AFD174B116F7E81F00CF5B41 /* Supporting Files */,
 			);
 			path = CLMFeedling;
@@ -379,23 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD174B616F7E81F00CF5B41 /* CLMFeedling.m in Sources */,
-				AFD1752E16F7F82300CF5B41 /* AFHTTPClient.m in Sources */,
-				AFD1753016F7F82300CF5B41 /* AFHTTPRequestOperation.m in Sources */,
-				AFD1753216F7F82300CF5B41 /* AFImageRequestOperation.m in Sources */,
-				AFD1753416F7F82300CF5B41 /* AFJSONRequestOperation.m in Sources */,
-				AFD1753616F7F82300CF5B41 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				AFD1753816F7F82300CF5B41 /* AFPropertyListRequestOperation.m in Sources */,
-				AFD1753A16F7F82300CF5B41 /* AFURLConnectionOperation.m in Sources */,
-				AFD1753C16F7F82300CF5B41 /* AFXMLRequestOperation.m in Sources */,
-				AFD1753E16F7F82300CF5B41 /* UIImageView+AFNetworking.m in Sources */,
-				AFD1754016F7F82300CF5B41 /* CLMFeed.m in Sources */,
 				AFD1754216F7F82300CF5B41 /* CLMFeedItem.m in Sources */,
 				AFD1754416F7F82300CF5B41 /* CLMParser.m in Sources */,
 				AFD1754616F7F82300CF5B41 /* CLMServiceLocator.m in Sources */,
 				AFD1755016F7FE3900CF5B41 /* CLMFeedlingManager.m in Sources */,
 				AFD175B716F9600800CF5B41 /* CLMXMLParser.m in Sources */,
 				AFD175BA16F9601400CF5B41 /* CLMAtomParser.m in Sources */,
+				AF916073174C71D700CCAF64 /* CLMFeed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,15 +385,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD174CD16F7E81F00CF5B41 /* CLMFeedlingTests.m in Sources */,
-				AFD1752F16F7F82300CF5B41 /* AFHTTPClient.m in Sources */,
-				AFD1753116F7F82300CF5B41 /* AFHTTPRequestOperation.m in Sources */,
-				AFD1753316F7F82300CF5B41 /* AFImageRequestOperation.m in Sources */,
-				AFD1753516F7F82300CF5B41 /* AFJSONRequestOperation.m in Sources */,
-				AFD1753716F7F82300CF5B41 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				AFD1753916F7F82300CF5B41 /* AFPropertyListRequestOperation.m in Sources */,
-				AFD1753B16F7F82300CF5B41 /* AFURLConnectionOperation.m in Sources */,
-				AFD1753D16F7F82300CF5B41 /* AFXMLRequestOperation.m in Sources */,
-				AFD1753F16F7F82300CF5B41 /* UIImageView+AFNetworking.m in Sources */,
 				AFD1754116F7F82300CF5B41 /* CLMFeed.m in Sources */,
 				AFD1754316F7F82300CF5B41 /* CLMFeedItem.m in Sources */,
 				AFD1754516F7F82300CF5B41 /* CLMParser.m in Sources */,
